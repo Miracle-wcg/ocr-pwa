@@ -4,7 +4,8 @@ import type { RouteRecordRaw } from 'vue-router';
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
-    component: () => import('@/views/Home.vue')
+    // component: () => import('@/views/Home.vue')
+    component: () => import('@/views/Ocr.vue')
   },
   {
     path: '/ocr',
